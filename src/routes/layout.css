@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@import '@skeletonlabs/skeleton'; 
+@import '@skeletonlabs/skeleton-svelte'; 
+@import '../tailglow.css'; 
+
+
+body {
+    background-image: url('$lib/assets/treebg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+h3 {
+    padding-bottom: 1rem;
+}
+
+:root {
+    --blur-amount: 9px;
+}
+.preset-glass-neutral {
+    background: color-mix(in oklab, var(--color-surface-50-950) 10%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-surface-50-950) 30%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
+.preset-glass-primary {
+    background: color-mix(in oklab, var(--color-primary-500) 40%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-primary-500) 50%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
+.preset-glass-secondary {
+    background: color-mix(in oklab, var(--color-secondary-500) 40%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-secondary-500) 50%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
+.preset-glass-tertiary {
+    background: color-mix(in oklab, var(--color-tertiary-500) 40%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-tertiary-500) 50%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
+.preset-glass-success {
+    background: color-mix(in oklab, var(--color-success-500) 40%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-success-500) 50%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
+.preset-glass-warning {
+    background: color-mix(in oklab, var(--color-warning-500) 40%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-warning-500) 50%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
+.preset-glass-error {
+    background: color-mix(in oklab, var(--color-error-500) 40%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-error-500) 50%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
+.preset-glass-surface {
+    background: color-mix(in oklab, var(--color-surface-500) 40%, transparent);
+    box-shadow: 0 0px 30px color-mix(in oklab, var(--color-surface-500) 50%, transparent) inset;
+    backdrop-filter: blur(var(--blur-amount));
+}
