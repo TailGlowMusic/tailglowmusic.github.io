@@ -11,6 +11,18 @@
         <hr class="hr my-5 border-t-4 border-neutral-900">
     
         <div class="h5 self-baseline mb-1">
+            Who are you?
+        </div>
+
+        <p>
+            I am Tail Glow. That's all you need. Tail Glow is categorically opposed to the use of music and art to give certain
+            individuals privileged status as 'celebrity' or 'cool' and vehemently disdainful of artists that try to attain or
+            glorify material conditions that are not sustainable for 99% of the world.
+        </p>
+        
+        <hr class="hr my-5 border-t-4 border-neutral-900">
+    
+        <div class="h5 self-baseline mb-1">
             Can I play [instrument] in your band?
         </div>
         
