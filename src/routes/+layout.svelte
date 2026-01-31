@@ -2,7 +2,7 @@
 	import './layout.css';
 	import { page } from '$app/stores';
 	import favicon from '$lib/assets/favicon.svg';
-	import bird from '$lib/assets/bird.png';
+	import icon from '$lib/assets/icon.png';
 	import logo from '$lib/assets/logo-text.png';
 	import { AppBar } from '@skeletonlabs/skeleton-svelte';
 
@@ -16,7 +16,7 @@
 <AppBar class="preset-glass-surface p-0">
 	<AppBar.Toolbar class="grid-cols-[1fr_2fr_1fr]">
 		<AppBar.Lead>
-			<a href="/"><img src={bird} alt="Splash Page Link Button" class="nav-img" /></a>
+			<a href="/"><img src={icon} alt="Splash Page Link Button" class="nav-img opacity-50" /></a>
 		</AppBar.Lead>
 		<AppBar.Headline class="flex justify-center">
 			<a href="/"><img src={logo} alt="Splash Page Link Button" class="nav-img" /></a>
