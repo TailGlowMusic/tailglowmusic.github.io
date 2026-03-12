@@ -18,11 +18,23 @@ body {
     align-items: center;
 }
 
+@media (orientation: portrait) {
+    body {
+        background-image: url('$lib/assets/treebg-vertical.gif');
+    }
+}
+
 main {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 95%;
     align-items: center;
+}
+
+@media (min-width: 640px) {
+    main {
+        width: 85%;
+    }
 }
 
 p {

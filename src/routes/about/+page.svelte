@@ -1,10 +1,10 @@
 
-<div class="card flex flex-col items-center preset-glass-surface p-5 my-5 w-4/5">
+<div class="card flex flex-col items-center preset-glass-surface p-5 my-5 w-full sm:w-4/5">
     <h3 class="h3">About Tail Glow</h3>
 
-    <div class="w-3/4">
-        
-        <p class="w-3/4 self-baseline">
+    <div class="w-full sm:w-3/4">
+
+        <p class="self-baseline">
             My name is Tail Glow and this is the website for my band called Tail Glow. I am the only member of Tail Glow.
         </p>
 

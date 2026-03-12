@@ -2,7 +2,7 @@
     import logo from '$lib/assets/logo.png';
 </script>
 
-<div class="flex flex-col px-10 py-2 w-3/4 mt-10">
+<div class="flex flex-col px-10 py-2 w-full sm:w-3/4 mt-10">
     <img src={logo} alt="Tail Glow logo w/ Bird"/>
     
     <div class="flex flex-row justify-around mt-5.5 w-full">

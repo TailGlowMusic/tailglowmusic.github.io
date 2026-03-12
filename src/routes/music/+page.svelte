@@ -1,11 +1,11 @@
 
-<div class="card flex flex-col items-center preset-glass-surface p-5 my-5 w-4/5">
+<div class="card flex flex-col items-center preset-glass-surface p-5 my-5 w-full sm:w-4/5">
     <h3 class="h3">Suburban Piano</h3>
 
-    <p class="w-3/4">
+    <p class="w-full sm:w-3/4">
         In 2023 I made this demo EP and put it on BandCamp. You can listen to it or pay to download it.
     </p>
-    <p class="w-3/4">
+    <p class="w-full sm:w-3/4">
         It contains four songs of music that I made.
     </p>
 
